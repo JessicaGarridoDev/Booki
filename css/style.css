@@ -18,7 +18,7 @@ main {
 }
 
 footer {
-  width: 1200px;
+  width: 1300px;
   margin: auto;
 }
 
@@ -58,7 +58,7 @@ header h1 {
 }
 
 header p {
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px 20px;
 }
 
@@ -155,7 +155,7 @@ header p {
 .topInfo {
   display: flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   gap: 1em;
 }
 
@@ -187,7 +187,7 @@ header p {
 }
 
 .topBlocLeft h3 {
-  padding: 17px 30px;
+  padding: 17px 55px;
   font-size: 17px;
 }
 
@@ -256,7 +256,7 @@ header p {
 
 /* AFFICHER + */
 .afficherPlus {
-  margin: 27px auto 0 35px;
+  margin: 27px auto 0 55px;
   font-weight: bold;
 }
 
@@ -342,6 +342,11 @@ header p {
   border-radius: 18px;
 }
 
+.bottomBloc h4 {
+  margin-right: auto;
+  font-size: 19px;
+}
+
 .bottomBox {
   display: flex;
   margin-left: -53px;
@@ -349,7 +354,7 @@ header p {
 
 .bottomBox h3 {
   margin: 17px 15px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .fig1,
@@ -359,7 +364,7 @@ header p {
   border-radius: 18px;
   box-shadow: 0 0 17px #0000002e;
   width: 280px;
-  height: 302px;
+  height: 390px;
   margin-right: -12px;
 }
 
@@ -395,12 +400,14 @@ header p {
 .bottomFig4 {
   border-radius: 18px;
   box-shadow: 0 0 17px #0000002e;
+  height: 200px;
 }
 
 .bottomFig2,
 .topFig4 {
   border-radius: 18px;
   box-shadow: 0 0 17px #0000002e;
+  height: 160px;
 }
 
 .fig1 img,
@@ -408,7 +415,7 @@ header p {
   border-radius: 18px 18px 0 0;
   object-fit: cover;
   width: 100%;
-  height: 254px;
+  height: 335px;
 }
 
 .topFig2 img,
@@ -416,7 +423,7 @@ header p {
   border-radius: 18px 18px 0 0;
   object-fit: cover;
   width: 100%;
-  height: 104px;
+  height: 143px;
 }
 
 .bottomFig2 img,
@@ -424,7 +431,7 @@ header p {
   border-radius: 18px 18px 0 0; 
   object-fit: cover;
   width: 100%;
-  height: 71px;
+  height: 103px;
 }
 
 /* ACTIVITY RESPONSIVE */
@@ -447,7 +454,7 @@ footer {
   display: flex;
   margin-right: auto;
   flex-direction: column;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .informations :hover {
