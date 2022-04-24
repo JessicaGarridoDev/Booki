@@ -1,0 +1,269 @@
+/* RESPONSIVE MOBILE */
+
+@media screen and (min-width: 0) and (max-width: 425px) {
+
+  body {
+    margin: 0;
+  }
+  
+  header,
+  main {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: inherit;
+  }
+
+  /* HAUT DE PAGE  */
+
+  header h1 {
+    margin: auto 20px;
+  }
+  .topNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topNav ul {
+    width: 100%;
+    gap: 0;
+  }
+
+  .topNav li {
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 15px;
+  }
+
+  .topNav a {
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .topNav li:hover {
+    border-top: none;
+    border-bottom: 3px solid blue;
+  }
+
+  /* BARRE RECHERCHE  */
+
+  .search {
+    margin-left: 20px;
+  }
+
+  .search button {
+    display: none;
+  }
+
+  #loupe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    border-radius: 18px;
+    margin-left: -12px;
+  }
+  .search input {
+    width: auto;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /*  FILTRES  */
+
+  .filters {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 0;
+  }
+
+  .filters ul {
+    display: flex;
+  }
+
+  .topInfo {
+    width: 86%;
+  }
+
+  /* POPULAIRES */
+
+  .topMain {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+  }
+
+  .topBlocRight,
+  .topBlocLeft {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .rightBox figure {
+    width: 300px;
+  }
+
+  /* HEBERGEMENTS MARSEILLE */
+
+  .topBlocLeft {
+    background-color: transparent;
+  }
+  .topBlocLeft h3 {
+    font-size: 19px;
+    padding: 0;
+    margin: 0 auto 28px 10px;
+  }
+  .topLeftBox,
+  .bottomLeftBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftBox figure {
+    width: 300px;
+  }
+
+  .leftBox img {
+    width: inherit;
+  }
+
+  /* AFFICHER + */
+
+  .afficherPlus {
+    margin-bottom: 20px;
+  }
+
+  /* BLOC DU BAS */
+  .BottomBloc h4 {
+    font-size: 19px;
+    padding: 0;
+    margin: 0 auto 28px 10px;
+  }
+
+  .bottomBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottomBox figure {
+    width: 300px;
+    height: auto;
+  }
+
+  .bottomBox img {
+    width: -webkit-fill-available;
+    height: 105px;
+  }
+
+  .topFig2,
+  .bottomFig4 {
+    height: 167px;
+  }
+
+  /* FOOTER */
+
+  .informations li {
+    margin-right: auto;
+  }
+}
+
+/* RESPONSIVE TABLETTE */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  header,
+  main {
+    width: 100%;
+    margin: auto;
+  }
+
+  footer {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  /* HAUT DE PAGE */
+  header {
+    padding: 0 20%;
+  }
+
+  /* MAIN */
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .topMain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .topBlocLeft {
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  .topBlocRight {
+    background-color: #f2f2f2;
+    width: auto;
+    height: auto;
+  }
+
+  .topLeftBox,
+  .bottomLeftBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .rightBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* BOC DU BAS */
+
+  .bottomBloc {
+    display: none;
+  }
+  .bottomBloc h4 {
+    font-size: 19px;
+    margin-left: -12px;
+  }
+
+  .activityResponsive {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 18px;
+    width: 65%;
+  }
+
+  .activityResponsive h3 {
+    font-size: 13px;
+    margin: 18px 5px;
+  }
+  .responsiveBottom1 {
+    display: flex;
+    gap: 2em;
+    margin-right: 40px;
+  }
+
+  .responsiveBottom2 {
+    display: flex;
+    gap: 2em;
+    margin-right: 40px;
+  }
+}
