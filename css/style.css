@@ -9,6 +9,10 @@
   color: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 /* ELEMENTS PRINCIPAUX */
 
 header,
